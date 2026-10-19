@@ -1,4 +1,4 @@
-}"""Operaciones matemáticas básicas para la práctica de integración continua."""
+"""Operaciones matemáticas básicas para la práctica de integración continua."""
 
 from numbers import Real
 
@@ -15,7 +15,6 @@ def square(number):
         raise TypeError("number debe ser un número real")
     # CAMBIAR ESTA LINEAA.
     return number * number
-
 
 
 def factorial(number):
