@@ -5,6 +5,7 @@ from mathlib import factorial, gcd, is_prime, lcm, square
 
 class SquareTests(unittest.TestCase):
     def test_square_of_positive_integer(self):
+        # Para la demo: cambia 16 por 15 y sube el commit para que falle.
         self.assertEqual(square(4), 16)
 
     def test_square_of_negative_and_decimal_numbers(self):
