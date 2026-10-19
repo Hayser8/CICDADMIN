@@ -1,10 +1,8 @@
 # Sesión Práctica #7: Continuous Integration
 
-**Universidad del Valle de Guatemala – Campus Central**  
-Facultad de Ingeniería · Semestre II 2026  
-Departamento de Ciencias de la Computación · Ciclo 2 – Año 5  
-CC3047 – Administración y Mantenimiento de Sistemas  
-Catedrático: Vinicio Paz
+**Universidad del Valle de Guatemala – Campus Central**
+
+Facultad de Ingeniería · Semestre II 2026 · Departamento de Ciencias de la Computación · Ciclo 2 – Año 5 · CC3047 – Administración y Mantenimiento de Sistemas · Catedrático: Vinicio Paz
 
 ## Objetivo
 
