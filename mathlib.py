@@ -1,4 +1,4 @@
-"""Operaciones matemáticas básicas para la práctica de integración continua."""
+}"""Operaciones matemáticas básicas para la práctica de integración continua."""
 
 from numbers import Real
 
@@ -13,8 +13,8 @@ def square(number):
     """Retorna el cuadrado de un número real."""
     if isinstance(number, bool) or not isinstance(number, Real):
         raise TypeError("number debe ser un número real")
-    # Demo: cambia temporalmente esta línea por `return number * number + 1`.
-    return number * number + 1
+    # CAMBIAR ESTA LINEAA.
+    return number * number
 
 
 
