@@ -39,8 +39,8 @@ El workflow [`.github/workflows/tests.yml`](.github/workflows/tests.yml) corre e
 ## Demostración sugerida
 
 1. Abre un Pull Request hacia `main` y confirma que el check **Pruebas unitarias** pasa.
-2. En la rama del PR, cambia temporalmente un resultado esperado en una prueba para que contradiga la implementación y sube el cambio.
+2. En `mathlib.py`, cambia temporalmente `return number * number` por `return number * number + 1` y sube el cambio.
 3. Muestra que el check falla y que GitHub bloquea el merge mientras el check requerido esté pendiente o fallido.
-4. Restaura el resultado correcto, sube la corrección y espera a que el check pase antes de hacer merge.
+4. Restaura `return number * number`, sube la corrección y espera a que el check pase antes de hacer merge.
 
 No dejes el cambio intencionalmente incorrecto en `main`.
