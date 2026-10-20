@@ -14,7 +14,7 @@ def square(number):
     if isinstance(number, bool) or not isinstance(number, Real):
         raise TypeError("number debe ser un número real")
     # CAMBIAR ESTA LINEAA.
-    return number * number
+    return number * number + 1
 
 
 def factorial(number):
